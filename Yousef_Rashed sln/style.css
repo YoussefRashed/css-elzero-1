@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 95vh;
+}
+
+div{
+    position: absolute;
+    transform: translate(50%,-50%);
+    right: 50%;
+    top: 50%;
+}
+.assign-2{
+    background-color: #d4d4d4 !important;
+    width: fit-content;
+    padding: 15px 15px 15px 0px;
+}
+.assign-2::first-letter{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin-left: -15px;
+}
